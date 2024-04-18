@@ -1,0 +1,147 @@
+:root {
+  --color-white: rgb(232, 232, 232);
+  --color-black: black;
+  --shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.3);
+  --background-color: rgb(42, 46, 152);
+  --body-back: rgb(50, 50, 50);
+}
+
+body {
+  margin: 20px;
+  background-color: var(--body-back);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 {
+  padding-top: 2rem;
+}
+
+.city-div {
+  font-size: 24px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.btn-city {
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.input-city {
+  margin-left: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 24px;
+  width: 23rem;
+}
+.btn-city {
+  font-size: 24px;
+  margin-right: 3rem;
+}
+
+.section1 {
+  height: 35rem;
+  font-size: 24px;
+}
+
+.main-nav {
+  height: 43rem;
+  background-color: var(--background-color);
+  width: 40rem;
+}
+
+.main-nav > div:first-child {
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.format-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.top-content {
+  margin: 1rem 0rem 0rem 1rem;
+  display: flex;
+  column-gap: 2rem;
+  height: 3rem;
+
+  justify-content: space-between;
+}
+
+.current-city {
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-left: 2rem;
+  color: var(--color-white);
+}
+
+.night-day-mode {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.night-day-mode:active {
+  font-size: 2.1rem;
+}
+
+.center-content {
+  margin: 1.5rem 0rem 0rem 3rem;
+}
+.display-temperature {
+  font-size: 3.5rem;
+  color: var(--color-white);
+}
+
+.atmosphere-type {
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.temp-details {
+  margin-top: 2.5rem;
+  justify-content: start;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.date {
+  font-size: 1.3rem;
+  color: var(--color-white);
+}
+.bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+  column-gap: 1.5rem;
+  margin: 2rem;
+  margin-top: 5rem;
+  color: var(--color-white);
+}
+
+.planty-details {
+  width: 40%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: var(--shadow);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
